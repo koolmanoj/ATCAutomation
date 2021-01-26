@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qa.tests.ShoppingPageTest">
+        <methods>
+          <include name="itemOneTest"/>
+          <include name="setUp"/>
+          <include name="checkoutTest"/>
+          <include name="tearDownn"/>
+          <include name="itemThreeTest"/>
+          <include name="itemTwoTest"/>
+          <include name="orderHistoryTest"/>
+        </methods>
+      </class> <!-- com.qa.tests.ShoppingPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

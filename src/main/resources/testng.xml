@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Automation Test Suite">
+
+  <test thread-count="1" name="ATC Automation Practice">
+    <classes>
+  <!--     <class name="com.qa.tests.LoginPageTest"></class> -->
+      <class name="com.qa.tests.AddressPageTest"></class>
+      <class name="com.qa.tests.ShoppingPageTest"></class>
+    </classes>
+  </test>
+</suite>
